@@ -1,0 +1,33 @@
+{
+  "name": "monitor",
+  "version": "0.0.1",
+  "description": "tool to easily monitor events on your server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mebjas/monitor.git"
+  },
+  "keywords": [
+    "event",
+    "monitor",
+    "realtime",
+    "monitor"
+  ],
+  "author": "minhaz <minhazav@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mebjas/monitor/issues"
+  },
+  "homepage": "https://github.com/mebjas/monitor#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-react-views": "^0.10.1",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "redis": "^2.5.3",
+    "socket.io": "^1.4.5"
+  }
+}
